@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'ananda-hastakchyar';
+    src: url('ananda-hastakchyar.regular.ttf');
+}
+body{
+	margin: 0px;
+}
+#header{
+	margin: 0;
+	border-bottom-color: white;
+	border-bottom-style: dashed;
+	border-bottom-width: 0.5px;
+}
+#header-icon{
+	position: relative;
+	left:4%;
+	top: 20px;
+	z-index: 1;
+	width: 50%;
+}
+#header-icon ul{
+	list-style-type: none;
+}
+#header-icon li{
+	display: inline;
+	margin-right: 20px;
+	color: white;
+	margin-top: 0;
+	font-size: 15px;
+}
+#header-extra{
+	position: relative;
+	left:60%;
+	top: -20px;
+	z-index: 1;
+	width: 40%;
+}
+#header-extra ul{
+	list-style-type: none;
+}
+#header-extra li{
+	display: inline;
+	margin-right: 40px;
+	color: white;
+	font-size: 15px;
+}
+#image-slider{
+	background-image: url('Assets/imageslider.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 580px;
+
+}
+#logo{
+	position: relative;
+	width: 50%;
+	z-index: 1;
+	top: 3%;
+	left:7%;
+}
+#title{
+	position: relative;
+	z-index: 1;
+	color: green;
+	top:-3%;
+	width: 25%;
+	left:11%;
+	font-size: 25px;
+}
+#nav-bar{
+	position: relative;
+	z-index: 1;
+	color: white;
+	left: 51%;
+	top:-10%;
+	width: 45%;
+	font-size: 15px;
+}
+#nav-items{
+	list-style-type: none;
+}
+#nav-items li{
+	display: inline;
+	margin-right: 30px;
+}
+#message{
+	position: relative;
+	z-index: 1;
+	color: white;
+	top: 10%;
+	left:35%;
+	font-size: 40px;
+	font-weight: bold;
+	width: 40%;
+
+}
+#short-info{
+	position: relative;
+	z-index: 1;
+	color: white;
+	width: 25%;
+	top: 9%;
+	left:40%;
+	font-size:40px;
+	font-family: ananda-hastakchyar;
+	
+}
+#home{
+	position: relative;
+	z-index: 1;
+	color: green;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	top: 30%;
+	left:45%;
+	font-size: 20px;
+	width: 120px;
+	border-radius: 10px;
+	background-color: white;
+}
+#blog1{
+	position: relative;
+	top: 170px;
+	width: 87%;
+	left: 170px;
+}
+#blog2{
+	position: relative;
+	top: 200px;
+	left: 170px;
+	width: 87%;
+}
+.details ul{
+	list-style-type: none;
+	position: relative;
+	left:-10px;
+}
+.details li{
+	display: inline;
+	margin-right: 30px;
+}
+.content{
+	border-color: green green green white;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	left:-154px;
+}
+.content h1{
+	position: relative;
+	left:30px;
+	font-size: 40px;
+}
+.description{
+	font-size: 20px;
+	position: relative;
+	left: 13px;
+	padding: 5px;
+}
+.readm{
+	position: relative;
+	padding:15px;
+	left: 5%;
+	font-size: 20px;
+	border: green 2px solid;
+	width: 120px;
+}
+#empty{
+	height: 1200px;
+	width: 100%;
+}
+#work-hrs{
+	background-color: green;
+	color: white;
+	height: 140px;
+	margin-bottom: 0;
+}
+#whtitle{
+	position: relative;
+	top: 40%;
+	left: 10%;
+	font-size: 20px;
+	width: 20%;
+}
+#whlist{
+	position: relative;
+	top: -7%;
+	left: 30%;
+	width: 70%;
+	height: 80%;
+}
+.days{
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	width: 10%;
+	border-right: white 1px solid;
+	padding-left: 20px;
+	padding-right: 0;
+}
+#ftr{
+	background-color: black;
+	height: 400px;
+	margin-top: 0px;
+	border:black 1px solid;
+}
+.gp{
+	width: 50%;
+	margin-right: 20px;
+}
+#footer-left{
+	position: relative;
+	top: 15%;
+	left: 7%;
+	width: 70%;
+	color: white;
+	font-size: 20px;
+	margin: 0;
+}
+#footer-mid{
+	position: relative;
+	top: -39%;
+	left: 35%;
+	width: 30%;
+	margin:0;
+	color: white;
+	font-size: 20px;
+}
+#footer-right{
+	position: relative;
+	margin-top: 0;
+	top: -94%;
+	left: 70%;
+	width: 35%;
+	color: white;
+	font-size: 20px;
+}
+
